@@ -121,8 +121,20 @@
         "vector": "cpp",
         "__tree": "cpp",
         "set": "cpp",
+<<<<<<< Updated upstream
         "list": "cpp",
         "valarray": "cpp",
         "regex": "cpp"
+=======
+        "bit": "cpp",
+        "*.tcc": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "utility": "cpp",
+        "numbers": "cpp"
+>>>>>>> Stashed changes
     }
 }

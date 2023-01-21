@@ -18,8 +18,8 @@ int main()
         else{
             dp[0] = 0;
             dp[1] = 1;
-            for(int j = 2; j <= N; j++){
-                dp[j] = dp[j-1] + dp[j-2];
+            for(int i = 2; i <= N; i++){
+                dp[i] = dp[i-1] + dp[i-2];
             }
             cout << dp[N-1] <<" "<< dp[N] << endl;
         }
