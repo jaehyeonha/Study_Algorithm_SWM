@@ -3,17 +3,19 @@
 
 using namespace std;
 
-// vector<pair<int, int>> v(41);
+// vector<pair<int, int>> v(41); // 0의 개수, 1의 개수
 
 // pair<int, int> fibonacci(int n) {
 //   if (n == 0) {
 //     return { 1, 0 };
-//   } else if (n == 1) {
+//   } 
+//   else if (n == 1) {
 //     return { 0, 1 };
-//   } else {
+//   } 
+//   else {  //dp에 저장된 값이 없으면 재귀호출
 //     if (v[n].first == 0 && v[n].second == 0) {
 //       v[n] = { fibonacci(n - 1).first + fibonacci(n - 2).first, fibonacci(n - 1).second + fibonacci(n - 2).second };
-//     }
+//     }       //dp에 저장된 값이 있으면 그대로 반환
 //     return v[n];
 //   }
 // }
@@ -31,9 +33,10 @@ using namespace std;
 //   return 0;
 // }
 
+//
 
-vector<int> zero(41);
-vector<int> one(41);
+vector<int> zero(41); // 0의 개수
+vector<int> one(41);  // 1의 개수
 
 void fibonacci(int n) {
   for (int i = 2; i <= n; i++) {

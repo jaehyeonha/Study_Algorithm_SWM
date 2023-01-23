@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "Study_Algorithm_SWM",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"vector": "cpp",
+			"ostream": "cpp",
+			"string": "cpp",
+			"cstdlib": "cpp",
+			"iostream": "cpp"
+		}
+	}
+}
