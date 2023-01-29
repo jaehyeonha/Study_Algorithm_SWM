@@ -1,5 +1,7 @@
 #include<iostream>
 #include<cmath>
+#include<cstring>
+
 using namespace std;
 int ar[51][51];
 int dis[13][101];
